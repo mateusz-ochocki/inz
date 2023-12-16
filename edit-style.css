@@ -1,0 +1,36 @@
+/* style.css */
+
+body {
+    margin: 0; /* Dodaj margin 0, aby usunąć domyślne marginesy body */
+}
+
+.sidebar {
+    position: fixed;
+}
+
+.table {
+    margin-top: 56px; /* Zmieniłem wartość margin-top */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+/* Dodany styl dla paska nawigacyjnego */
+.navbar.fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Dodaj specjalny styl dla edycji (jeśli potrzebujesz) */
+body.edit-page .table {
+    margin-top: 0; /* Zmieniłem wartość margin-top dla edycji */
+}
+/* style.css */
+
